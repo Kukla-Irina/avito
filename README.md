@@ -18,15 +18,20 @@
    POSTGRES_DB: {dbname} 
    Пароль, пользователь и название БД должны совпадать с данными из п. 1.
    Пример:
+
    POSTGRES_PASSWORD: postgres
+
    POSTGRES_USER: postgres
+
    POSTGRES_DB: postgres
+   
 3. Номер порта, который использует БД
+
     ports:
       - "{port}:{port}"
     
     Пример:
-    
+
     ports:
       - "5432:5432"
 
